@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coler Random</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+      <div class="mainBox">
+           <div class="header"> 
+                <h3 class="">Display Color</h3>
+                 <a href="#" class="radom_colorBtn">Random Color</a>
+           </div>
+           <div class="Box_color display_color"></div>
+            <div class="Color_code-copy"> 
+                <h3 class="">Change & Copy Color</h3>
+                 <a class="copy-colder" href="#">Copy To Clipboard</a>
+            </div>
+
+            <div class="name-Content">
+                <div class=""><h4>Select Copy Mode</h4></div>
+                <div class="Select_div-hex">      
+                    <div class="hex-to_rgb">
+                        <div class="">
+                            <input type="radio" name="" class="radio1" id="">
+                            <span>Hex</span>
+                       </div>
+                       <div class="">
+                           <input type="radio" name="" class="radio" id="">
+                          <span>Rgb</span>
+                       </div>
+                      </div>
+                 </div>
+            </div>
+           <div class="code_gantaror">
+                 <div class="hexbox">
+                       <div class="">
+                             <label for="">Hex</label>
+                              <div class="input ">
+                               <span>  <i class="fa-solid fa-paintbrush"></i></span>
+                                   <input class="hex-input" type="text" placeholder="#cedeee">
+                              </div>
+                       </div>
+                 </div>
+                 <div class="Rgb">
+                     <div class="rgb-code">
+                           <label for="">RGB</label>
+                            <div class="input">
+                                <span><i class="fa-solid fa-palette"></i></span>
+                                 <input class="RGB-Input" type="text" placeholder="rgb(255,255,255)">
+                            </div>
+                     </div>
+               </div>
+           </div>
+           <div class="update-rba">
+                <h3 class="title">Adjust RGB Colors</h3>
+                 <div class="all-color-box"> 
+                    <div class="rgb-box">
+                        <div class="red-box">
+                             <div class="box-title">
+                                 <span>Red</span>
+                                 <span class="value red-value">255</span>
+                              </div>
+                              <input id="color" class="red_range" type="range" min="0" max="255" value="20">
+                        </div>
+                  </div>
+                  <div class="rgb-box">
+                      <div class="red-box">
+                           <div class="box-title">
+                               <span>Green</span>
+                               <span class="value green_value">255</span>
+                            </div>
+                            <input id="color" class="green_range" type="range" min="0" max="255" value="20">
+                      </div>
+                </div>
+                   <div class="rgb-box">
+                        <div class="red-box">
+                             <div class="box-title">
+                                 <span>Blue</span>
+                                 <span class="value blue-value">255</span>
+                              </div>
+                              <input id="color" class="blue_range" type="range" min="0" max="255" value="20">
+                        </div>
+                  </div>
+                 </div>
+
+
+           </div> 
+
+
+      </div>
+  
+    <script src="app.js"></script>
+</body>
+</html>
